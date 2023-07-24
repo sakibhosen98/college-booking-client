@@ -27,7 +27,7 @@ const Colleges = () => {
       ></SectionTitle>
       <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-4 ">
       {colleges.map((college) => (
-        <SingleCollege key={college.id} college={college}></SingleCollege>
+        <SingleCollege key={college._id} college={college}></SingleCollege>
       ))}
       </div>
     </section>

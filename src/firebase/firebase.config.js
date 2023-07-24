@@ -5,12 +5,12 @@ import { initializeApp } from "firebase/app";
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyCKTfbb29IbLWOwGuNptFyR0kxyK5Vw7jg",
-  authDomain: "college-booking-68b50.firebaseapp.com",
-  projectId: "college-booking-68b50",
-  storageBucket: "college-booking-68b50.appspot.com",
-  messagingSenderId: "233712993735",
-  appId: "1:233712993735:web:5d468dd4b8fbc6cfee85e2"
+  apiKey: import.meta.env.VITE_apiKey,
+  authDomain: import.meta.env.VITE_authDomain,
+  projectId: import.meta.env.VITE_projectId,
+  storageBucket: import.meta.env.VITE_storageBucket,
+  messagingSenderId: import.meta.env.VITE_messagingSenderId,
+  appId: import.meta.env.VITE_appId,
 };
 
 // Initialize Firebase

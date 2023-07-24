@@ -1,31 +1,33 @@
-import React, { useState } from 'react';
+import React, { useContext, useState } from 'react';
 import { useForm } from 'react-hook-form';
 import { Link } from 'react-router-dom';
 import image from '../../assets/images/banner/banner1.jpg';
+import { AuthContext } from '../../Provider/AuthProvider';
 
 
 const Login = () => {
 
     const { register, formState: { errors }, handleSubmit } = useForm();
     const [loginError, setLoginError] = useState('');
+    const {signIn} = useContext(AuthContext)
 
 
 
 
     const handleLogin = (data) => {
         console.log(data);
-        // console.log(errors.password);
-        // setLoginError('');
-        // signUser(data.email, data.password)
-        //     .then(result => {
+        console.log(errors.password);
+        setLoginError('');
+        signIn(data.email, data.password)
+            .then(result => {
 
-        //         console.log(result.user);
-        //         setLoginUserEmail(data.email);
-        //     })
-        //     .catch(error => {
-        //         console.log(error.message);
-        //         setLoginError(error.message)
-        //     })
+                console.log(result.user);
+                setLoginUserEmail(data.email);
+            })
+            .catch(error => {
+                console.log(error.message);
+                setLoginError(error.message)
+            })
     }
 
     const handleGoogleLogin = () =>{
