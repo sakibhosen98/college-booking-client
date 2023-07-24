@@ -1,0 +1,57 @@
+[
+  {
+    "id": "1",
+    "name": "Harvard University",
+    "admissionDate": "September 1, 2023",
+    "events": ["Orientation Week", "Alumni Homecoming", "Research Symposium"],
+    "sports": ["Football", "Basketball", "Swimming", "Tennis"],
+    "researchHistory": "Harvard University is renowned for its rich research history. It has been a pioneer in various fields, including medicine, law, economics, and political science. Harvard researchers have made significant contributions to the understanding of genetics, the development of computer science, and the exploration of space.",
+    "collegeImage": "https://i.ibb.co/NmJb8cY/olu-famule-Dv2-PNb-MWts-E-unsplash.jpg",
+    "collegeDescription": "Harvard University, located in Cambridge, Massachusetts, is one of the world's most prestigious and oldest universities. Founded in 1636, it has a storied history of academic excellence and has produced numerous prominent alumni, including many U.S. presidents, Nobel laureates, and business leaders. Harvard's rigorous academic programs, diverse student body, and strong commitment to research make it a top choice for students seeking a world-class education.",
+    "rating": 4.8
+  },
+  {
+    "id": "2",
+    "name": "Stanford University",
+    "admissionDate": "August 15, 2023",
+    "events": ["Welcome Picnic", "Career Fair", "Diversity & Inclusion Conference"],
+    "sports": ["Soccer", "Volleyball", "Track & Field", "Gymnastics"],
+    "researchHistory": "Stanford University has a remarkable research history in cutting-edge technology and innovation. It played a pivotal role in the development of Silicon Valley and has been at the forefront of computer science, artificial intelligence, and biotechnology research. Many groundbreaking inventions and companies have emerged from Stanford's research community.",
+    "collegeImage": "https://i.ibb.co/xYvJHGW/vasily-koloda-8-Cq-Dv-Puo-k-I-unsplash.jpg",
+    "collegeDescription": "Located in Stanford, California, Stanford University is renowned for its world-class education and groundbreaking research. Established in 1885, it has grown to become one of the leading research institutions globally. With its beautiful campus, a diverse and vibrant community, and a strong emphasis on entrepreneurship and innovation, Stanford offers its students a transformative and intellectually stimulating college experience.",
+    "rating": 4.7
+  },
+  {
+    "id": "3",
+    "name": "Massachusetts Institute of Technology (MIT)",
+    "admissionDate": "September 10, 2023",
+    "events": ["Freshman Mixer", "Hackathon", "Tech Expo"],
+    "sports": ["Baseball", "Rowing", "Fencing", "Table Tennis"],
+    "researchHistory": "MIT is famous for its longstanding research excellence in engineering, science, and technology. It has been a hub for significant breakthroughs in fields like robotics, aerospace engineering, and renewable energy. Many of its alumni and faculty have been instrumental in shaping the technological advancements of the modern world.",
+    "collegeImage": "https://i.ibb.co/26HxJTm/robert-bye-Cyv-K-Z2p-YXg-unsplash.jpg",
+    "collegeDescription": "Massachusetts Institute of Technology (MIT), located in Cambridge, Massachusetts, is a world-renowned institution for its emphasis on science, engineering, and technology education. Established in 1861, MIT has been at the forefront of cutting-edge research and innovation. With its rigorous curriculum, collaborative community, and entrepreneurial spirit, MIT provides its students with the skills and knowledge to tackle some of the world's most challenging problems.",
+    "rating": 4.9
+  },
+  {
+    "id": "4",
+    "name": "University of Oxford",
+    "admissionDate": "October 5, 2023",
+    "events": ["Matriculation Ceremony", "Debating Competition", "Cultural Festival"],
+    "sports": ["Cricket", "Rugby", "Badminton", "Hockey"],
+    "researchHistory": "The University of Oxford has a prestigious research history spanning centuries. It has produced numerous Nobel laureates and has been a center for groundbreaking research in various disciplines, such as literature, physics, history, and philosophy. Oxford's contribution to academia and knowledge dissemination is immeasurable.",
+    "collegeImage": "https://i.ibb.co/2sCNzbc/eliott-reyna-j-CEp-N62o-WL4-unsplash.jpg",
+    "collegeDescription": "The University of Oxford, located in Oxford, England, is one of the oldest and most distinguished universities in the world. With a history dating back to the 12th century, Oxford has a strong tradition of academic excellence and intellectual inquiry. Its collegiate system fosters a close-knit community and allows students to receive personalized attention and support from expert faculty members. Oxford's commitment to research and academic rigor makes it a globally respected institution.",
+    "rating": 4.6
+  },
+  {
+    "id": "5",
+    "name": "California Institute of Technology (Caltech)",
+    "admissionDate": "August 25, 2023",
+    "events": ["Welcome Week", "Science Fair", "Student Showcase"],
+    "sports": ["Chess", "Swimming", "Archery", "Squash"],
+    "researchHistory": "Caltech is known for its outstanding research in science and engineering. It has been a key player in space exploration, astronomy, and the study of fundamental physics. Caltech researchers have made significant strides in understanding the universe, and its alumni have been associated with numerous scientific breakthroughs.",
+    "collegeImage": "https://i.ibb.co/26HxJTm/robert-bye-Cyv-K-Z2p-YXg-unsplash.jpg",
+    "collegeDescription": "The California Institute of Technology (Caltech), located in Pasadena, California, is a world-renowned scientific research and educational institution. Founded in 1891, Caltech has been a leader in science and engineering research. Its small size and intimate environment foster close interactions between students and faculty, providing a unique and supportive learning experience. With its strong emphasis on research and innovation, Caltech continues to make groundbreaking contributions to various scientific fields.",
+    "rating": 4.9
+  }
+]
