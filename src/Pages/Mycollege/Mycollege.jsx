@@ -9,7 +9,7 @@ const Mycollege = () => {
 
     useEffect(() => {
         try {
-            fetch('http://localhost:5000/admissions')
+            fetch('https://college-booking-services-server.vercel.app/admissions')
                 .then(res => res.json())
                 .then(data => {
                     setAdmissionData(data);

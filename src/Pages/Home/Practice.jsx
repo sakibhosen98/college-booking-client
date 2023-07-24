@@ -4,7 +4,7 @@ const Practice = () => {
   const [data, setData] = useState([]);
 
   useEffect( ()=> {
-    fetch('http://localhost:5000/users')
+    fetch('https://college-booking-services-server.vercel.app/users')
     .then(res => res.json())
     .then(data => setData(data))
   },[])

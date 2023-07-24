@@ -5,7 +5,7 @@ const ViewDetail = () => {
   const [details, setDetails] = useState([]);
 
   useEffect(() => {
-    fetch("http://localhost:5000/allCollege")
+    fetch("https://college-booking-services-server.vercel.app/allCollege")
       .then((res) => res.json())
       .then((data) => setDetails(data));
   }, []);

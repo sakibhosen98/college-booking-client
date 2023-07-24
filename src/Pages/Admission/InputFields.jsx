@@ -25,7 +25,7 @@ const InputFields = ({ admissonCollege }) => {
 
         console.log(admissionData);
 
-        fetch('http://localhost:5000/admissions', {
+        fetch('https://college-booking-services-server.vercel.app/admissions', {
 
             method: 'POST',
             headers: {
